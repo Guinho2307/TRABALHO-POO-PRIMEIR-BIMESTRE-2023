@@ -21,7 +21,7 @@ public class Pedido {
 
       public Pedido() {
         listaItens = new ArrayList<ItemPedido>();
-        formasPgto = new ArrayList<String>();
+        formasPgto = new ArrayList<FormPag>();
     
     }
 
