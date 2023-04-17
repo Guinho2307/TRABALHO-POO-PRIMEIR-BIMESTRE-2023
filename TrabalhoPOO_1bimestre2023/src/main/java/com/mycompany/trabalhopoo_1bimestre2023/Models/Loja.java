@@ -17,7 +17,7 @@ public class Loja {
     private ArrayList<Pedido> listapedido;
     
     public Loja() {
-        this.listapedido = new ArrayList<>();
+        listapedido = new ArrayList<>();
     }
 
     public Loja(int id, String CNPJ, String Nome, ArrayList<Pedido> listapedido) {
